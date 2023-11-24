@@ -14,6 +14,25 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+div.header {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+div.header a {
+  color: #b300ff;
+  font-weight: 700;
+  size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+div.header a span {
+  color: #b300ff;
+}
+
 .App {
   color: #b300ff;
   font-weight: 700;
